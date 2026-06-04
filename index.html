@@ -1,16 +1,1145 @@
-<html>
-
+<!doctype html>
+<html lang="zh-CN">
   <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Just Do It  : ">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="一个整理工程实践、项目复盘和开发笔记的数字花园">
+    <title>zwlinv6 | 工程实践数字花园</title>
+    <style>
+      :root {
+        --paper: #fbfcfb;
+        --paper-deep: #eef3ef;
+        --ink: #1d2733;
+        --muted: #657284;
+        --line: #d8e0da;
+        --panel: #ffffff;
+        --blue: #2e66b8;
+        --green: #2e7655;
+        --red: #b84b3f;
+        --gold: #9a6a1d;
+        --violet: #745aa6;
+        --shadow: 0 18px 46px rgba(29, 39, 51, 0.08);
+      }
 
-    
+      * {
+        box-sizing: border-box;
+      }
 
-    <title>Just Do It </title>
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        margin: 0;
+        min-width: 320px;
+        background:
+          linear-gradient(rgba(29, 39, 51, 0.035) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(29, 39, 51, 0.035) 1px, transparent 1px),
+          var(--paper);
+        background-size: 28px 28px;
+        color: var(--ink);
+        font-family: ui-serif, Georgia, "Times New Roman", "Songti SC", serif;
+        line-height: 1.62;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      .shell {
+        width: min(1120px, calc(100% - 32px));
+        margin: 0 auto;
+      }
+
+      .topbar {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        border-bottom: 1px solid rgba(216, 224, 218, 0.82);
+        background: rgba(251, 252, 251, 0.9);
+        backdrop-filter: blur(14px);
+      }
+
+      .topbar-inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 18px;
+        min-height: 66px;
+      }
+
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        min-width: 0;
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        font-weight: 760;
+      }
+
+      .brand-mark {
+        display: grid;
+        width: 36px;
+        height: 36px;
+        place-items: center;
+        border: 1px solid var(--ink);
+        border-radius: 50%;
+        background: var(--panel);
+        color: var(--ink);
+        font-size: 12px;
+        letter-spacing: 0;
+      }
+
+      .brand-text {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+      .nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        gap: 6px;
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+
+      .nav a {
+        min-height: 34px;
+        padding: 7px 10px;
+        border: 1px solid transparent;
+        border-radius: 999px;
+        color: var(--muted);
+        font-size: 14px;
+        font-weight: 650;
+      }
+
+      .nav a:hover {
+        border-color: var(--line);
+        background: var(--panel);
+        color: var(--ink);
+      }
+
+      .hero {
+        padding: 72px 0 42px;
+      }
+
+      .hero-grid {
+        display: grid;
+        grid-template-columns: minmax(0, 0.98fr) minmax(320px, 1.02fr);
+        gap: 46px;
+        align-items: center;
+      }
+
+      .eyebrow {
+        margin: 0 0 14px;
+        color: var(--green);
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        font-size: 13px;
+        font-weight: 780;
+        text-transform: uppercase;
+      }
+
+      h1 {
+        max-width: 760px;
+        margin: 0;
+        font-size: clamp(40px, 6.2vw, 76px);
+        line-height: 1.03;
+        letter-spacing: 0;
+      }
+
+      .lead {
+        max-width: 700px;
+        margin: 22px 0 0;
+        color: #465568;
+        font-size: 19px;
+      }
+
+      .hero-actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 30px;
+      }
+
+      .button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 42px;
+        padding: 9px 14px;
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        background: var(--panel);
+        color: var(--ink);
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        font-weight: 740;
+      }
+
+      .button.primary {
+        border-color: var(--ink);
+        background: var(--ink);
+        color: #fff;
+      }
+
+      .garden-map {
+        position: relative;
+        min-height: 470px;
+        padding: 24px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background:
+          radial-gradient(circle at 25% 20%, rgba(46, 118, 85, 0.08), transparent 28%),
+          radial-gradient(circle at 82% 68%, rgba(46, 102, 184, 0.08), transparent 26%),
+          var(--panel);
+        box-shadow: var(--shadow);
+        overflow: hidden;
+      }
+
+      .garden-map::before,
+      .garden-map::after {
+        content: "";
+        position: absolute;
+        border: 1px dashed rgba(101, 114, 132, 0.28);
+        pointer-events: none;
+      }
+
+      .garden-map::before {
+        top: 92px;
+        right: 62px;
+        bottom: 82px;
+        left: 92px;
+        border-radius: 48% 52% 46% 54%;
+        transform: rotate(-8deg);
+      }
+
+      .garden-map::after {
+        top: 144px;
+        right: 128px;
+        bottom: 134px;
+        left: 42px;
+        border-radius: 40% 60% 53% 47%;
+        transform: rotate(11deg);
+      }
+
+      .map-title {
+        position: relative;
+        z-index: 1;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 16px;
+        margin-bottom: 18px;
+      }
+
+      .map-title strong {
+        display: block;
+        font-size: 24px;
+        line-height: 1.2;
+      }
+
+      .map-title span {
+        display: block;
+        margin-top: 6px;
+        color: var(--muted);
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        font-size: 13px;
+      }
+
+      .map-compass {
+        display: grid;
+        width: 48px;
+        height: 48px;
+        place-items: center;
+        border: 1px solid var(--line);
+        border-radius: 50%;
+        color: var(--green);
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        font-weight: 780;
+      }
+
+      .map-grid {
+        position: relative;
+        z-index: 1;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 14px;
+      }
+
+      .map-node {
+        min-height: 112px;
+        padding: 16px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.9);
+      }
+
+      .map-node b {
+        display: block;
+        font-size: 20px;
+      }
+
+      .map-node span {
+        display: block;
+        margin-top: 8px;
+        color: var(--muted);
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        font-size: 13px;
+      }
+
+      .node-red {
+        border-top: 4px solid var(--red);
+      }
+
+      .node-blue {
+        border-top: 4px solid var(--blue);
+      }
+
+      .node-green {
+        border-top: 4px solid var(--green);
+      }
+
+      .node-gold {
+        border-top: 4px solid var(--gold);
+      }
+
+      .section {
+        padding: 54px 0;
+      }
+
+      .section-heading {
+        display: grid;
+        grid-template-columns: minmax(0, 0.8fr) minmax(280px, 0.62fr);
+        gap: 28px;
+        align-items: end;
+        margin-bottom: 24px;
+      }
+
+      .section-kicker {
+        margin: 0 0 8px;
+        color: var(--green);
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        font-size: 13px;
+        font-weight: 780;
+        text-transform: uppercase;
+      }
+
+      h2 {
+        margin: 0;
+        font-size: clamp(30px, 4.8vw, 52px);
+        line-height: 1.08;
+        letter-spacing: 0;
+      }
+
+      .section-heading p {
+        margin: 0;
+        color: var(--muted);
+        font-size: 17px;
+      }
+
+      .plot-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 16px;
+      }
+
+      .plot {
+        display: grid;
+        gap: 18px;
+        min-height: 330px;
+        padding: 20px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--panel);
+      }
+
+      .plot-meta {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 16px;
+        color: var(--muted);
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        font-size: 13px;
+        font-weight: 720;
+      }
+
+      .plot-stage {
+        padding: 4px 9px;
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        background: var(--paper);
+      }
+
+      .plot h3 {
+        margin: 0;
+        font-size: 26px;
+        line-height: 1.18;
+        letter-spacing: 0;
+      }
+
+      .plot p {
+        margin: 0;
+        color: #4e5d70;
+      }
+
+      .plot-list {
+        display: grid;
+        gap: 8px;
+        align-self: end;
+        margin: 0;
+        padding: 0;
+        color: #344256;
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        font-size: 14px;
+        list-style: none;
+      }
+
+      .plot-list li {
+        display: grid;
+        grid-template-columns: 14px minmax(0, 1fr);
+        gap: 8px;
+      }
+
+      .plot-list li::before {
+        content: "";
+        width: 6px;
+        height: 6px;
+        margin-top: 9px;
+        border-radius: 50%;
+        background: currentColor;
+      }
+
+      .plot.quality {
+        border-top: 4px solid var(--red);
+      }
+
+      .plot.delivery {
+        border-top: 4px solid var(--blue);
+      }
+
+      .plot.dev {
+        border-top: 4px solid var(--green);
+      }
+
+      .case-feature {
+        display: grid;
+        grid-template-columns: 0.42fr 0.58fr;
+        gap: 18px;
+        align-items: start;
+      }
+
+      .case-note {
+        position: sticky;
+        top: 90px;
+      }
+
+      .case-list {
+        display: grid;
+        gap: 12px;
+      }
+
+      .case-card {
+        padding: 18px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.88);
+      }
+
+      .case-card:hover {
+        border-color: rgba(46, 102, 184, 0.42);
+        box-shadow: 0 12px 30px rgba(29, 39, 51, 0.07);
+      }
+
+      .case-meta {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        color: var(--muted);
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        font-size: 12px;
+        font-weight: 780;
+        text-transform: uppercase;
+      }
+
+      .case-card h3 {
+        margin: 12px 0 0;
+        font-size: 24px;
+        line-height: 1.22;
+        letter-spacing: 0;
+      }
+
+      .case-card h3 a {
+        border-bottom: 1px solid rgba(46, 102, 184, 0.28);
+        color: var(--ink);
+      }
+
+      .case-card h3 a:hover {
+        color: var(--blue);
+      }
+
+      .case-card p {
+        margin: 10px 0 0;
+        color: #4f5e70;
+      }
+
+      .case-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin: 14px 0 0;
+        padding: 0;
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        list-style: none;
+      }
+
+      .case-tags li {
+        padding: 4px 9px;
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        background: var(--paper);
+        color: #435166;
+        font-size: 12px;
+        font-weight: 700;
+      }
+
+      .paths {
+        display: grid;
+        grid-template-columns: 1.05fr 0.95fr;
+        gap: 18px;
+      }
+
+      .path-board {
+        display: grid;
+        gap: 12px;
+        padding: 22px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: #ffffff;
+      }
+
+      .path-row {
+        display: grid;
+        grid-template-columns: 126px minmax(0, 1fr);
+        gap: 18px;
+        padding: 16px 0;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .path-row:last-child {
+        border-bottom: 0;
+      }
+
+      .path-label {
+        color: var(--muted);
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        font-size: 13px;
+        font-weight: 780;
+        text-transform: uppercase;
+      }
+
+      .path-row h3 {
+        margin: 0;
+        font-size: 23px;
+        letter-spacing: 0;
+      }
+
+      .path-row p {
+        margin: 7px 0 0;
+        color: #506075;
+      }
+
+      .field-note {
+        display: grid;
+        align-content: space-between;
+        min-height: 100%;
+        padding: 24px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--paper-deep);
+      }
+
+      .field-note h3 {
+        margin: 0;
+        font-size: 30px;
+        line-height: 1.16;
+        letter-spacing: 0;
+      }
+
+      .field-note p {
+        margin: 16px 0 0;
+        color: #4c5a6a;
+      }
+
+      .field-note .stamp {
+        align-self: end;
+        margin-top: 28px;
+        color: var(--green);
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        font-size: 13px;
+        font-weight: 800;
+        text-transform: uppercase;
+      }
+
+      .notes-grid {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 12px;
+      }
+
+      .note-card {
+        min-height: 190px;
+        padding: 18px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--panel);
+      }
+
+      .note-card span {
+        display: block;
+        color: var(--muted);
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        font-size: 12px;
+        font-weight: 780;
+        text-transform: uppercase;
+      }
+
+      .note-card h3 {
+        margin: 14px 0 0;
+        font-size: 22px;
+        line-height: 1.2;
+        letter-spacing: 0;
+      }
+
+      .note-card p {
+        margin: 10px 0 0;
+        color: var(--muted);
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        font-size: 14px;
+      }
+
+      .timeline {
+        display: grid;
+        gap: 12px;
+      }
+
+      .timeline-item {
+        display: grid;
+        grid-template-columns: 140px minmax(0, 1fr);
+        gap: 18px;
+        padding: 18px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.78);
+      }
+
+      .timeline-date {
+        color: var(--muted);
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        font-size: 13px;
+        font-weight: 780;
+      }
+
+      .timeline-item h3 {
+        margin: 0;
+        font-size: 23px;
+        letter-spacing: 0;
+      }
+
+      .timeline-item p {
+        margin: 8px 0 0;
+        color: #506075;
+      }
+
+      .shelf {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 14px;
+      }
+
+      .shelf-item {
+        padding: 20px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: #fff;
+      }
+
+      .shelf-item b {
+        display: block;
+        font-size: 22px;
+      }
+
+      .shelf-item span {
+        display: block;
+        margin-top: 10px;
+        color: var(--muted);
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        font-size: 14px;
+      }
+
+      .footer {
+        padding: 34px 0 46px;
+        border-top: 1px solid var(--line);
+        color: var(--muted);
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        font-size: 14px;
+      }
+
+      .footer-inner {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+      }
+
+      @media (max-width: 940px) {
+        .hero-grid,
+        .section-heading,
+        .plot-grid,
+        .case-feature,
+        .paths,
+        .notes-grid,
+        .shelf {
+          grid-template-columns: 1fr;
+        }
+
+        .case-note {
+          position: static;
+        }
+
+        .hero {
+          padding-top: 50px;
+        }
+
+        .notes-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+      }
+
+      @media (max-width: 660px) {
+        .shell {
+          width: min(100% - 24px, 1120px);
+        }
+
+        .topbar-inner {
+          align-items: flex-start;
+          flex-direction: column;
+          padding: 13px 0;
+        }
+
+        .nav {
+          justify-content: flex-start;
+        }
+
+        .garden-map {
+          min-height: 0;
+        }
+
+        .map-grid,
+        .notes-grid,
+        .path-row,
+        .timeline-item {
+          grid-template-columns: 1fr;
+        }
+
+        .footer-inner {
+          flex-direction: column;
+        }
+      }
+    </style>
   </head>
-
   <body>
-</body>
+    <header class="topbar">
+      <div class="shell topbar-inner">
+        <a class="brand" href="#top" aria-label="zwlinv6 首页">
+          <span class="brand-mark">ZW</span>
+          <span class="brand-text">zwlinv6 的工程数字花园</span>
+        </a>
+        <nav class="nav" aria-label="主导航">
+          <a href="#plots">能力地图</a>
+          <a href="#cases">项目案例</a>
+          <a href="#paths">写作路径</a>
+          <a href="#notes">笔记状态</a>
+          <a href="#shelf">资料架</a>
+        </nav>
+      </div>
+    </header>
 
+    <main id="top">
+      <section class="hero">
+        <div class="shell hero-grid">
+          <div>
+            <p class="eyebrow">Digital Garden for Engineering Practice</p>
+            <h1>这里不是简历页，是一座整理工程经验的数字花园。</h1>
+            <p class="lead">
+              我把不同阶段的项目、问题、复盘和工具记录下来。成熟的文章会长成案例，零散的想法会留在笔记里，反复出现的方法会整理成模式。
+            </p>
+            <div class="hero-actions">
+              <a class="button primary" href="#plots">进入能力地图</a>
+              <a class="button" href="#paths">看内容结构</a>
+            </div>
+          </div>
+
+          <aside class="garden-map" aria-label="数字花园地图">
+            <div class="map-title">
+              <div>
+                <strong>Garden Map</strong>
+                <span>按内容成熟度和问题类型组织</span>
+              </div>
+              <div class="map-compass">N</div>
+            </div>
+            <div class="map-grid">
+              <div class="map-node node-red">
+                <b>工程质量</b>
+                <span>规范意识、架构演进、性能保障、稳定交付。</span>
+              </div>
+              <div class="map-node node-blue">
+                <b>交付闭环</b>
+                <span>需求拆解、概要设计、联调转测、上线复盘。</span>
+              </div>
+              <div class="map-node node-green">
+                <b>开发实践</b>
+                <span>代码实践、工具链、排障记录、自动化。</span>
+              </div>
+              <div class="map-node node-gold">
+                <b>模式</b>
+                <span>从重复问题里提炼可复用的工程方法。</span>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section" id="plots">
+        <div class="shell">
+          <div class="section-heading">
+            <div>
+              <p class="section-kicker">Capability Plots</p>
+              <h2>三个能力地块，承接你的项目经历和知识库。</h2>
+            </div>
+            <p>首页先呈现能力，不把组织标签放在最前面。具体项目背景和经历来源，放到文章与案例详情里自然展开。</p>
+          </div>
+
+          <div class="plot-grid">
+            <article class="plot quality">
+              <div class="plot-meta">
+                <span>Plot 01</span>
+                <span class="plot-stage">系统经验</span>
+              </div>
+              <h3>复杂系统工程质量</h3>
+              <p>从长期复杂系统建设中提炼流程意识、质量控制、架构演进、性能优化和稳定性保障经验。</p>
+              <ul class="plot-list">
+                <li>代表内容后续按可公开程度逐步填入。</li>
+                <li>适合整理成工程方法和架构复盘。</li>
+                <li>最终沉淀为“如何把复杂系统做稳”。</li>
+              </ul>
+            </article>
+
+            <article class="plot delivery">
+              <div class="plot-meta">
+                <span>Plot 02</span>
+                <span class="plot-stage">待填充</span>
+              </div>
+              <h3>业务系统交付闭环</h3>
+              <p>围绕业务平台项目，沉淀需求分析、概要设计、组件治理、联调转测、上线发布和复盘改进的完整工程链路。</p>
+              <ul class="plot-list">
+                <li>适合整理成项目案例和工程方法。</li>
+                <li>代表内容后续按可公开程度逐步填入。</li>
+                <li>最终沉淀为“业务系统如何稳定交付”。</li>
+              </ul>
+            </article>
+
+            <article class="plot dev">
+              <div class="plot-meta">
+                <span>Plot 03</span>
+                <span class="plot-stage">持续生长</span>
+              </div>
+              <h3>开发：代码实践和问题排查</h3>
+              <p>记录日常开发里的工具链、实现细节、排障路径和优化经验。</p>
+              <ul class="plot-list">
+                <li>适合整理成短笔记和技术文章。</li>
+                <li>按技术栈、问题类型、复用价值分类。</li>
+                <li>最终沉淀为公开可检索的工作台。</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="cases">
+        <div class="shell">
+          <div class="section-heading">
+            <div>
+              <p class="section-kicker">Project Cases</p>
+              <h2>用项目细节展示经验来源，而不是把组织标签放在首页正中。</h2>
+            </div>
+            <p>这里先保留案例结构，不展示具体文章标题和原文链接。等你后续确认哪些内容可以公开，再逐篇补上摘要、标签和跳转。</p>
+          </div>
+
+          <div class="case-feature">
+            <aside class="field-note case-note">
+              <div>
+                <h3>这里会长成案例目录。</h3>
+                <p>每个案例后续都会按“问题、方案、结果、复盘”的结构补充。首页只负责给读者一个清晰入口，具体项目背景和公司上下文放进文章详情里。</p>
+              </div>
+              <span class="stamp">Problem → Action → Result</span>
+            </aside>
+
+            <div class="case-list">
+              <article class="case-card">
+                <div class="case-meta">
+                  <span>Case Slot 01</span>
+                  <span>复杂系统</span>
+                </div>
+                <h3>复杂系统长期演进</h3>
+                <p>用于承载架构演进、模块拆分、能力沉淀、技术债治理和长期维护经验。</p>
+                <ul class="case-tags">
+                  <li>架构演进</li>
+                  <li>系统治理</li>
+                  <li>稳定交付</li>
+                </ul>
+              </article>
+
+              <article class="case-card">
+                <div class="case-meta">
+                  <span>Case Slot 02</span>
+                  <span>性能保障</span>
+                </div>
+                <h3>高峰流量与稳定性保障</h3>
+                <p>用于承载缓存治理、限流保护、监控告警、应急预案和高压场景下的稳定性建设。</p>
+                <ul class="case-tags">
+                  <li>缓存治理</li>
+                  <li>流量防护</li>
+                  <li>监控预案</li>
+                </ul>
+              </article>
+
+              <article class="case-card">
+                <div class="case-meta">
+                  <span>Case Slot 03</span>
+                  <span>交付流程</span>
+                </div>
+                <h3>从需求到上线的交付闭环</h3>
+                <p>用于承载需求澄清、概要设计、研发协同、代码评审、联调转测、上线发布和复盘改进。</p>
+                <ul class="case-tags">
+                  <li>需求治理</li>
+                  <li>研发协同</li>
+                  <li>上线复盘</li>
+                </ul>
+              </article>
+
+              <article class="case-card">
+                <div class="case-meta">
+                  <span>Case Slot 04</span>
+                  <span>平台治理</span>
+                </div>
+                <h3>平台能力和通用组件</h3>
+                <p>用于承载网关、消息、缓存、灰度、日志、审核、静态资源等可复用平台能力建设。</p>
+                <ul class="case-tags">
+                  <li>通用组件</li>
+                  <li>平台能力</li>
+                  <li>可复用性</li>
+                </ul>
+              </article>
+
+              <article class="case-card">
+                <div class="case-meta">
+                  <span>Case Slot 05</span>
+                  <span>复杂业务</span>
+                </div>
+                <h3>复杂业务功能设计</h3>
+                <p>用于承载业务规则多、链路长、状态复杂、涉及多系统协同的功能设计与落地经验。</p>
+                <ul class="case-tags">
+                  <li>业务建模</li>
+                  <li>数据一致性</li>
+                  <li>多系统协同</li>
+                </ul>
+              </article>
+
+              <article class="case-card">
+                <div class="case-meta">
+                  <span>Case Slot 06</span>
+                  <span>复盘机制</span>
+                </div>
+                <h3>项目复盘和流程优化</h3>
+                <p>用于承载代码合并、需求延期、联调风险、沟通机制和团队协作方式的复盘沉淀。</p>
+                <ul class="case-tags">
+                  <li>项目复盘</li>
+                  <li>流程优化</li>
+                  <li>协作机制</li>
+                </ul>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="paths">
+        <div class="shell">
+          <div class="section-heading">
+            <div>
+              <p class="section-kicker">Writing Paths</p>
+              <h2>像 Maggie 那样按内容类型组织，而不是按时间堆文章。</h2>
+            </div>
+            <p>读者可以从成熟文章进入，也可以顺着半成品笔记看到你的思考过程。</p>
+          </div>
+
+          <div class="paths">
+            <div class="path-board">
+              <article class="path-row">
+                <span class="path-label">Essays</span>
+                <div>
+                  <h3>长文和项目复盘</h3>
+                  <p>成熟内容放这里，比如一个完整业务系统、一次上线闭环、一个复杂问题的解决过程。</p>
+                </div>
+              </article>
+
+              <article class="path-row">
+                <span class="path-label">Notes</span>
+                <div>
+                  <h3>开发笔记和临场记录</h3>
+                  <p>不追求完整，保留问题现场、命令、截图线索、排查路径和当时的判断。</p>
+                </div>
+              </article>
+
+              <article class="path-row">
+                <span class="path-label">Patterns</span>
+                <div>
+                  <h3>反复出现的工程模式</h3>
+                  <p>把多次遇到的问题抽象成方法，比如联调检查表、上线前验证、排障路径。</p>
+                </div>
+              </article>
+
+              <article class="path-row">
+                <span class="path-label">Library</span>
+                <div>
+                  <h3>工具、资料和参考链接</h3>
+                  <p>放那些不一定要写成文章，但你会反复用到的资料、脚本、文档和工具。</p>
+                </div>
+              </article>
+            </div>
+
+            <aside class="field-note">
+              <div>
+                <h3>首页不需要一次讲完你是谁。</h3>
+                <p>它应该让人知道你在思考什么、解决过什么、正在整理什么。这样个人站会像一个长期维护的工作空间，而不是一张静态名片。</p>
+              </div>
+              <span class="stamp">Living Notes, Stable Work</span>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="notes">
+        <div class="shell">
+          <div class="section-heading">
+            <div>
+              <p class="section-kicker">Growth Stages</p>
+              <h2>给每篇内容一个状态，让知识自然长出来。</h2>
+            </div>
+            <p>这就是数字花园和传统博客最大的区别：它允许内容从半成品开始，被看见，也被继续修剪。</p>
+          </div>
+
+          <div class="notes-grid">
+            <article class="note-card">
+              <span>Seed</span>
+              <h3>刚记录的想法</h3>
+              <p>一句判断、一个问题、一次排查现场，先留住。</p>
+            </article>
+
+            <article class="note-card">
+              <span>Sprout</span>
+              <h3>正在展开的笔记</h3>
+              <p>开始补上下文、链接、代码片段和初步结论。</p>
+            </article>
+
+            <article class="note-card">
+              <span>Evergreen</span>
+              <h3>长期有效的文章</h3>
+              <p>经过多次更新，能独立解释一个问题或方法。</p>
+            </article>
+
+            <article class="note-card">
+              <span>Pruned</span>
+              <h3>已整理的案例</h3>
+              <p>从零散笔记修剪成能对外展示的项目复盘。</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="journey">
+        <div class="shell">
+          <div class="section-heading">
+            <div>
+              <p class="section-kicker">A Small Trail</p>
+              <h2>经历线索放在后面，作为能力形成路径。</h2>
+            </div>
+            <p>首页先回答“我能解决什么问题”，再让读者顺着项目与文章理解这些能力从哪里来。</p>
+          </div>
+
+          <div class="timeline">
+            <article class="timeline-item">
+              <span class="timeline-date">复杂系统</span>
+              <div>
+                <h3>在长期演进的系统里理解质量和协同</h3>
+                <p>把流程、评审、架构演进、性能优化和稳定性保障整理成工程方法，而不是只写经历标签。</p>
+              </div>
+            </article>
+
+            <article class="timeline-item">
+              <span class="timeline-date">业务交付</span>
+              <div>
+                <h3>在业务系统里完成从需求到上线的闭环</h3>
+                <p>用项目案例呈现真实问题、设计取舍、实现过程和结果复盘。</p>
+              </div>
+            </article>
+
+            <article class="timeline-item">
+              <span class="timeline-date">日常开发</span>
+              <div>
+                <h3>把问题排查和工具经验持续沉淀</h3>
+                <p>让个人站成为可复用的公开笔记，而不是写完就沉底的文章列表。</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="shelf">
+        <div class="shell">
+          <div class="section-heading">
+            <div>
+              <p class="section-kicker">Shelf</p>
+              <h2>最后放一个资料架，承接链接、工具和 GitHub。</h2>
+            </div>
+            <p>这里后续可以接 GitHub 项目、常用工具、阅读清单和语雀原文入口。</p>
+          </div>
+
+          <div class="shelf">
+            <div class="shelf-item">
+              <b>GitHub Projects</b>
+              <span>放真正能打开、能运行、能解释用途的项目，而不是堆仓库列表。</span>
+            </div>
+            <div class="shelf-item">
+              <b>Tools I Use</b>
+              <span>记录常用命令、开发环境、脚本工具和效率实践。</span>
+            </div>
+            <div class="shelf-item">
+              <b>Reading Notes</b>
+              <span>整理技术文章、官方文档、书籍和长期参考资料。</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="shell footer-inner">
+        <span>zwlinv6.github.io</span>
+        <span>一个持续生长的工程实践数字花园</span>
+      </div>
+    </footer>
+  </body>
 </html>
