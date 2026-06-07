@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">质量前移</title>
+  <desc id="desc">把质量动作从测试阶段前移到需求、设计、开发和发布全过程。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7f2e8"/>
+      <stop offset="1" stop-color="#eef4f8"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#c1664b"/>
+      <stop offset=".52" stop-color="#d6a05d"/>
+      <stop offset="1" stop-color="#5f8f72"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#25342c" flood-opacity=".13"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#315f52"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="720" fill="url(#bg)"/>
+  <text x="86" y="104" font-family="'PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="42" font-weight="700" fill="#25342c">质量前移</text>
+  <text x="86" y="148" font-family="'PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="21" fill="#66736a">越早发现问题，修复成本越低；越早定义标准，交付越稳定</text>
+
+  <g transform="translate(116 224)" font-family="'PingFang SC','Microsoft YaHei',Arial,sans-serif" filter="url(#shadow)">
+    <rect x="0" y="0" width="968" height="110" rx="22" fill="#ffffff"/>
+    <rect x="38" y="44" width="892" height="18" rx="9" fill="url(#bar)"/>
+    <g fill="#25342c" font-size="22" font-weight="700">
+      <text x="84" y="86" text-anchor="middle">需求</text>
+      <text x="260" y="86" text-anchor="middle">设计</text>
+      <text x="446" y="86" text-anchor="middle">开发</text>
+      <text x="632" y="86" text-anchor="middle">联调</text>
+      <text x="812" y="86" text-anchor="middle">发布</text>
+    </g>
+    <g fill="#ffffff">
+      <circle cx="84" cy="53" r="18"/>
+      <circle cx="260" cy="53" r="18"/>
+      <circle cx="446" cy="53" r="18"/>
+      <circle cx="632" cy="53" r="18"/>
+      <circle cx="812" cy="53" r="18"/>
+    </g>
+    <g fill="#315f52" font-size="18" font-weight="700">
+      <text x="84" y="60" text-anchor="middle">1</text>
+      <text x="260" y="60" text-anchor="middle">2</text>
+      <text x="446" y="60" text-anchor="middle">3</text>
+      <text x="632" y="60" text-anchor="middle">4</text>
+      <text x="812" y="60" text-anchor="middle">5</text>
+    </g>
+  </g>
+
+  <g transform="translate(132 395)" font-family="'PingFang SC','Microsoft YaHei',Arial,sans-serif">
+    <g>
+      <rect width="190" height="170" rx="18" fill="#ffffff" filter="url(#shadow)"/>
+      <text x="95" y="45" text-anchor="middle" font-size="25" font-weight="700" fill="#25342c">验收标准</text>
+      <text x="95" y="84" text-anchor="middle" font-size="17" fill="#68756d">目标和边界清楚</text>
+      <text x="95" y="113" text-anchor="middle" font-size="17" fill="#68756d">减少需求返工</text>
+      <text x="95" y="142" text-anchor="middle" font-size="17" fill="#68756d">统一判断口径</text>
+    </g>
+    <g transform="translate(242 0)">
+      <rect width="190" height="170" rx="18" fill="#ffffff" filter="url(#shadow)"/>
+      <text x="95" y="45" text-anchor="middle" font-size="25" font-weight="700" fill="#25342c">设计评审</text>
+      <text x="95" y="84" text-anchor="middle" font-size="17" fill="#68756d">流程先跑通</text>
+      <text x="95" y="113" text-anchor="middle" font-size="17" fill="#68756d">风险先暴露</text>
+      <text x="95" y="142" text-anchor="middle" font-size="17" fill="#68756d">方案可解释</text>
+    </g>
+    <g transform="translate(484 0)">
+      <rect width="190" height="170" rx="18" fill="#ffffff" filter="url(#shadow)"/>
+      <text x="95" y="45" text-anchor="middle" font-size="25" font-weight="700" fill="#25342c">开发自测</text>
+      <text x="95" y="84" text-anchor="middle" font-size="17" fill="#68756d">主流程覆盖</text>
+      <text x="95" y="113" text-anchor="middle" font-size="17" fill="#68756d">异常路径覆盖</text>
+      <text x="95" y="142" text-anchor="middle" font-size="17" fill="#68756d">交付物清晰</text>
+    </g>
+    <g transform="translate(726 0)">
+      <rect width="190" height="170" rx="18" fill="#ffffff" filter="url(#shadow)"/>
+      <text x="95" y="45" text-anchor="middle" font-size="25" font-weight="700" fill="#25342c">发布清单</text>
+      <text x="95" y="84" text-anchor="middle" font-size="17" fill="#68756d">配置已确认</text>
+      <text x="95" y="113" text-anchor="middle" font-size="17" fill="#68756d">监控已就绪</text>
+      <text x="95" y="142" text-anchor="middle" font-size="17" fill="#68756d">回滚有预案</text>
+    </g>
+  </g>
+
+  <path d="M904 186 C795 115 660 98 536 132 C426 162 333 232 274 331" fill="none" stroke="#315f52" stroke-width="5" stroke-linecap="round" marker-end="url(#arrow)" opacity=".78"/>
+  <text x="785" y="126" font-family="'PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="23" font-weight="700" fill="#315f52">把质量动作往前推</text>
+</svg>

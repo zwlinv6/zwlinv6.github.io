@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">研发交付闭环</title>
+  <desc id="desc">从需求澄清到复盘沉淀的研发交付闭环示意图。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8f5ee"/>
+      <stop offset="1" stop-color="#edf4ef"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#203027" flood-opacity=".14"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#557565"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="720" fill="url(#bg)"/>
+  <circle cx="1000" cy="112" r="120" fill="#f0c979" opacity=".28"/>
+  <circle cx="152" cy="610" r="150" fill="#7ca982" opacity=".16"/>
+  <text x="92" y="104" font-family="'PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="42" font-weight="700" fill="#25342c">研发交付闭环</text>
+  <text x="92" y="148" font-family="'PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="21" fill="#607065">把不确定性拆进每个节点，让项目进入可预测节奏</text>
+
+  <g fill="none" stroke="#557565" stroke-width="4" marker-end="url(#arrow)" opacity=".92">
+    <path d="M354 230 C470 140 632 140 748 230"/>
+    <path d="M856 336 C904 456 830 570 698 608"/>
+    <path d="M502 608 C370 570 296 456 344 336"/>
+  </g>
+
+  <g font-family="'PingFang SC','Microsoft YaHei',Arial,sans-serif" filter="url(#shadow)">
+    <g transform="translate(272 196)">
+      <rect width="194" height="106" rx="18" fill="#ffffff"/>
+      <text x="97" y="43" text-anchor="middle" font-size="25" font-weight="700" fill="#26352d">需求澄清</text>
+      <text x="97" y="76" text-anchor="middle" font-size="17" fill="#657267">目标 / 边界 / 验收</text>
+    </g>
+    <g transform="translate(503 150)">
+      <rect width="194" height="106" rx="18" fill="#ffffff"/>
+      <text x="97" y="43" text-anchor="middle" font-size="25" font-weight="700" fill="#26352d">技术设计</text>
+      <text x="97" y="76" text-anchor="middle" font-size="17" fill="#657267">流程 / 数据 / 风险</text>
+    </g>
+    <g transform="translate(734 196)">
+      <rect width="194" height="106" rx="18" fill="#ffffff"/>
+      <text x="97" y="43" text-anchor="middle" font-size="25" font-weight="700" fill="#26352d">开发实现</text>
+      <text x="97" y="76" text-anchor="middle" font-size="17" fill="#657267">拆分 / 自测 / 联调</text>
+    </g>
+    <g transform="translate(760 428)">
+      <rect width="194" height="106" rx="18" fill="#ffffff"/>
+      <text x="97" y="43" text-anchor="middle" font-size="25" font-weight="700" fill="#26352d">上线发布</text>
+      <text x="97" y="76" text-anchor="middle" font-size="17" fill="#657267">灰度 / 监控 / 回滚</text>
+    </g>
+    <g transform="translate(503 500)">
+      <rect width="194" height="106" rx="18" fill="#ffffff"/>
+      <text x="97" y="43" text-anchor="middle" font-size="25" font-weight="700" fill="#26352d">复盘沉淀</text>
+      <text x="97" y="76" text-anchor="middle" font-size="17" fill="#657267">归因 / 改进 / 复用</text>
+    </g>
+    <g transform="translate(246 428)">
+      <rect width="194" height="106" rx="18" fill="#ffffff"/>
+      <text x="97" y="43" text-anchor="middle" font-size="25" font-weight="700" fill="#26352d">联调转测</text>
+      <text x="97" y="76" text-anchor="middle" font-size="17" fill="#657267">说明 / 范围 / 配置</text>
+    </g>
+  </g>
+
+  <g font-family="'PingFang SC','Microsoft YaHei',Arial,sans-serif">
+    <circle cx="600" cy="356" r="104" fill="#315f52"/>
+    <text x="600" y="338" text-anchor="middle" font-size="31" font-weight="700" fill="#ffffff">稳定交付</text>
+    <text x="600" y="378" text-anchor="middle" font-size="19" fill="#dce9e1">用流程暴露风险</text>
+    <text x="600" y="406" text-anchor="middle" font-size="19" fill="#dce9e1">用沉淀降低返工</text>
+  </g>
+</svg>
