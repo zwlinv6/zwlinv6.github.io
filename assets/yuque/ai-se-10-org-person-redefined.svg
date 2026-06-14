@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">十、组织和个人都会被重新定义</title>
+  <desc id="desc">AI 会放大复合型人才，也会暴露上下文传递成本</desc>
+  <defs>
+    <radialGradient id="paper" cx="50%" cy="45%" r="72%">
+      <stop offset="0%" stop-color="#f8f1e3"/>
+      <stop offset="100%" stop-color="#f2ead9"/>
+    </radialGradient>
+    <marker id="arrow" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="13" markerHeight="13" orient="auto">
+      <path d="M 1 1 L 11 6 L 1 11 z" fill="#171412" stroke="#171412" stroke-width="1"/>
+    </marker>
+    <marker id="smallArrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M 1 1 L 9 5 L 1 9 z" fill="#171412"/>
+    </marker>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="8" flood-color="#161412" flood-opacity=".10"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="720" fill="url(#paper)"/>
+  <path d="M 40 654 C 250 690 510 674 694 698 C 856 718 1010 696 1160 666" fill="none" stroke="#e6ddca" stroke-width="4" opacity=".6"/>
+  <path d="M 34 22 C 230 10 460 18 690 12 C 880 8 1030 12 1166 24" fill="none" stroke="#efe5d0" stroke-width="4" opacity=".42"/>
+  <text x="600" y="56" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="40" font-weight="900" fill="#171412">十、组织和个人都会被重新定义</text>
+  <text x="600" y="92" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="22" font-weight="700" fill="#69645d">AI 会放大复合型人才，也会暴露上下文传递成本</text>
+  <text x="232" y="146" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="31" font-weight="900" fill="#df765d">旧组织：角色墙</text><g>
+    <g opacity="1">
+    <path d="M 82 215 L 456 214 Q 471 214 470 226 L 469 530 Q 470 543 458 542 L 83 541 Q 69 542 70 530 L 71 226 Q 70 214 82 215 Z" fill="#fff8eb" stroke="#171412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M 84 217 L 459 216 Q 468 215 468 227 L 471 528 Q 469 540 457 541 L 80 543 Q 71 540 72 529 L 69 228 Q 71 215 84 217 Z" fill="none" stroke="#171412" stroke-width="1.6500000000000001" stroke-linejoin="round" opacity=".45"/>
+  </g>
+    <path d="M 71 256 L 469 254" stroke="#171412" stroke-width="3"/>
+    <path d="M 82 216 L 458 215 Q 470 215 469 229 L 469 255 L 71 256 L 71 228 Q 71 217 82 216 Z" fill="#df765d" opacity=".95" stroke="#171412" stroke-width="2.5"/>
+    <circle cx="92" cy="236" r="7" fill="#df765d" stroke="#171412" stroke-width="2"/>
+    <circle cx="116" cy="236" r="7" fill="#e9c46a" stroke="#171412" stroke-width="2"/>
+    <circle cx="140" cy="236" r="7" fill="#91bba5" stroke="#171412" stroke-width="2"/>
+    <text x="270" y="242" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="20" font-weight="800" fill="#171412">边界很硬</text>
+  </g><g>
+    <g opacity="1">
+    <path d="M 122 283 L 228 282 Q 241 282 240 292 L 239 328 Q 240 339 230 338 L 123 337 Q 111 338 112 328 L 113 292 Q 112 282 122 283 Z" fill="#f3b29f" stroke="#171412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M 124 285 L 231 284 Q 238 283 238 293 L 241 326 Q 239 336 229 337 L 120 339 Q 113 336 114 327 L 111 294 Q 113 283 124 285 Z" fill="none" stroke="#171412" stroke-width="1.6500000000000001" stroke-linejoin="round" opacity=".45"/>
+  </g>
+    <text x="176" y="318" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="19" font-weight="800" fill="#171412">产品</text>
+    
+    
+  </g><g>
+    <g opacity="1">
+    <path d="M 282 283 L 388 282 Q 401 282 400 292 L 399 328 Q 400 339 390 338 L 283 337 Q 271 338 272 328 L 273 292 Q 272 282 282 283 Z" fill="#f3b29f" stroke="#171412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M 284 285 L 391 284 Q 398 283 398 293 L 401 326 Q 399 336 389 337 L 280 339 Q 273 336 274 327 L 271 294 Q 273 283 284 285 Z" fill="none" stroke="#171412" stroke-width="1.6500000000000001" stroke-linejoin="round" opacity=".45"/>
+  </g>
+    <text x="336" y="318" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="19" font-weight="800" fill="#171412">前端</text>
+    
+    
+  </g><g>
+    <g opacity="1">
+    <path d="M 122 359 L 228 358 Q 241 358 240 368 L 239 404 Q 240 415 230 414 L 123 413 Q 111 414 112 404 L 113 368 Q 112 358 122 359 Z" fill="#fff8eb" stroke="#171412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M 124 361 L 231 360 Q 238 359 238 369 L 241 402 Q 239 412 229 413 L 120 415 Q 113 412 114 403 L 111 370 Q 113 359 124 361 Z" fill="none" stroke="#171412" stroke-width="1.6500000000000001" stroke-linejoin="round" opacity=".45"/>
+  </g>
+    <text x="176" y="394" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="19" font-weight="800" fill="#171412">后端</text>
+    
+    
+  </g><g>
+    <g opacity="1">
+    <path d="M 282 359 L 388 358 Q 401 358 400 368 L 399 404 Q 400 415 390 414 L 283 413 Q 271 414 272 404 L 273 368 Q 272 358 282 359 Z" fill="#fff8eb" stroke="#171412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M 284 361 L 391 360 Q 398 359 398 369 L 401 402 Q 399 412 389 413 L 280 415 Q 273 412 274 403 L 271 370 Q 273 359 284 361 Z" fill="none" stroke="#171412" stroke-width="1.6500000000000001" stroke-linejoin="round" opacity=".45"/>
+  </g>
+    <text x="336" y="394" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="19" font-weight="800" fill="#171412">测试</text>
+    
+    
+  </g><g>
+    <g opacity="1">
+    <path d="M 122 435 L 228 434 Q 241 434 240 444 L 239 480 Q 240 491 230 490 L 123 489 Q 111 490 112 480 L 113 444 Q 112 434 122 435 Z" fill="#fff8eb" stroke="#171412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M 124 437 L 231 436 Q 238 435 238 445 L 241 478 Q 239 488 229 489 L 120 491 Q 113 488 114 479 L 111 446 Q 113 435 124 437 Z" fill="none" stroke="#171412" stroke-width="1.6500000000000001" stroke-linejoin="round" opacity=".45"/>
+  </g>
+    <text x="176" y="470" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="19" font-weight="800" fill="#171412">DBA</text>
+    
+    
+  </g><g>
+    <g opacity="1">
+    <path d="M 282 435 L 388 434 Q 401 434 400 444 L 399 480 Q 400 491 390 490 L 283 489 Q 271 490 272 480 L 273 444 Q 272 434 282 435 Z" fill="#fff8eb" stroke="#171412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M 284 437 L 391 436 Q 398 435 398 445 L 401 478 Q 399 488 389 489 L 280 491 Q 273 488 274 479 L 271 446 Q 273 435 284 437 Z" fill="none" stroke="#171412" stroke-width="1.6500000000000001" stroke-linejoin="round" opacity=".45"/>
+  </g>
+    <text x="336" y="470" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="19" font-weight="800" fill="#171412">运维</text>
+    
+    
+  </g><path d="M 270 252 L 270 304" fill="none" stroke="#171412" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="0.5"/><path d="M 270 328 L 270 380" fill="none" stroke="#171412" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="0.5"/><path d="M 270 404 L 270 456" fill="none" stroke="#171412" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="0.5"/><path d="M 486 378 C 560 334 610 334 684 378" fill="none" stroke="#171412" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" opacity="1"/><g>
+    <g opacity="1">
+    <path d="M 569 331 L 655 330 Q 675 330 674 347 L 673 347 Q 674 365 657 364 L 570 363 Q 551 364 552 347 L 553 347 Q 552 330 569 331 Z" fill="#fff8eb" stroke="#171412" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M 571 333 L 658 332 Q 672 331 672 348 L 675 345 Q 673 362 656 363 L 567 365 Q 553 362 554 346 L 551 349 Q 553 331 571 333 Z" fill="none" stroke="#171412" stroke-width="1.2" stroke-linejoin="round" opacity=".45"/>
+  </g>
+    <text x="613" y="353" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="17" font-weight="800" fill="#171412">闭环变强</text>
+  </g><text x="932" y="146" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="31" font-weight="900" fill="#91bba5">新组织：能力网</text><g>
+    <g opacity="1">
+    <path d="M 718 215 L 1116 214 Q 1131 214 1130 226 L 1129 530 Q 1130 543 1118 542 L 719 541 Q 705 542 706 530 L 707 226 Q 706 214 718 215 Z" fill="#fff8eb" stroke="#171412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M 720 217 L 1119 216 Q 1128 215 1128 227 L 1131 528 Q 1129 540 1117 541 L 716 543 Q 707 540 708 529 L 705 228 Q 707 215 720 217 Z" fill="none" stroke="#171412" stroke-width="1.6500000000000001" stroke-linejoin="round" opacity=".45"/>
+  </g>
+    <path d="M 707 256 L 1129 254" stroke="#171412" stroke-width="3"/>
+    <path d="M 718 216 L 1118 215 Q 1130 215 1129 229 L 1129 255 L 707 256 L 707 228 Q 707 217 718 216 Z" fill="#91bba5" opacity=".95" stroke="#171412" stroke-width="2.5"/>
+    <circle cx="728" cy="236" r="7" fill="#df765d" stroke="#171412" stroke-width="2"/>
+    <circle cx="752" cy="236" r="7" fill="#e9c46a" stroke="#171412" stroke-width="2"/>
+    <circle cx="776" cy="236" r="7" fill="#91bba5" stroke="#171412" stroke-width="2"/>
+    <text x="918" y="242" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="20" font-weight="800" fill="#171412">上下文损耗更少</text>
+  </g><g>
+    <g opacity="1">
+    <path d="M 842 287 L 992 286 Q 1005 286 1004 296 L 1003 362 Q 1004 373 994 372 L 843 371 Q 831 372 832 362 L 833 296 Q 832 286 842 287 Z" fill="#cfe1d6" stroke="#171412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M 844 289 L 995 288 Q 1002 287 1002 297 L 1005 360 Q 1003 370 993 371 L 840 373 Q 833 370 834 361 L 831 298 Q 833 287 844 289 Z" fill="none" stroke="#171412" stroke-width="1.6500000000000001" stroke-linejoin="round" opacity=".45"/>
+  </g>
+    <text x="918" y="322" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="22" font-weight="800" fill="#171412">复合型个人</text>
+    <text x="918" y="353" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="17" font-weight="600" fill="#69645d">业务 + 技术 + 质量</text>
+    
+  </g><g>
+    <g opacity="1">
+    <path d="M 756 421 L 884 420 Q 897 420 896 430 L 895 482 Q 896 493 886 492 L 757 491 Q 745 492 746 482 L 747 430 Q 746 420 756 421 Z" fill="#fff8eb" stroke="#171412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M 758 423 L 887 422 Q 894 421 894 431 L 897 480 Q 895 490 885 491 L 754 493 Q 747 490 748 481 L 745 432 Q 747 421 758 423 Z" fill="none" stroke="#171412" stroke-width="1.6500000000000001" stroke-linejoin="round" opacity=".45"/>
+  </g>
+    <text x="821" y="456" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="20" font-weight="800" fill="#171412">AI 工具</text>
+    <text x="821" y="487" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="17" font-weight="600" fill="#69645d">执行放大器</text>
+    
+  </g><g>
+    <g opacity="1">
+    <path d="M 950 421 L 1078 420 Q 1091 420 1090 430 L 1089 482 Q 1090 493 1080 492 L 951 491 Q 939 492 940 482 L 941 430 Q 940 420 950 421 Z" fill="#fff8eb" stroke="#171412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M 952 423 L 1081 422 Q 1088 421 1088 431 L 1091 480 Q 1089 490 1079 491 L 948 493 Q 941 490 942 481 L 939 432 Q 941 421 952 423 Z" fill="none" stroke="#171412" stroke-width="1.6500000000000001" stroke-linejoin="round" opacity=".45"/>
+  </g>
+    <text x="1015" y="456" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="20" font-weight="800" fill="#171412">小团队</text>
+    <text x="1015" y="487" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="17" font-weight="600" fill="#69645d">闭环协作</text>
+    
+  </g><path d="M 916 372 L 832 420" fill="none" stroke="#171412" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#smallArrow)" opacity="1"/><path d="M 920 372 L 1016 420" fill="none" stroke="#171412" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#smallArrow)" opacity="1"/><text x="920" y="594" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="24" font-weight="900" fill="#171412">不是角色最多，而是闭环最快形成</text>
+</svg>

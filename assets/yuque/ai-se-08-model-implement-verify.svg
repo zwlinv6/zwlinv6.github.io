@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">八、软件工程的新核心：建模、实现、验证</title>
+  <desc id="desc">角色标签会变软，工程闭环会变硬</desc>
+  <defs>
+    <radialGradient id="paper" cx="50%" cy="45%" r="72%">
+      <stop offset="0%" stop-color="#f8f1e3"/>
+      <stop offset="100%" stop-color="#f2ead9"/>
+    </radialGradient>
+    <marker id="arrow" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="13" markerHeight="13" orient="auto">
+      <path d="M 1 1 L 11 6 L 1 11 z" fill="#171412" stroke="#171412" stroke-width="1"/>
+    </marker>
+    <marker id="smallArrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M 1 1 L 9 5 L 1 9 z" fill="#171412"/>
+    </marker>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="8" flood-color="#161412" flood-opacity=".10"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="720" fill="url(#paper)"/>
+  <path d="M 40 654 C 250 690 510 674 694 698 C 856 718 1010 696 1160 666" fill="none" stroke="#e6ddca" stroke-width="4" opacity=".6"/>
+  <path d="M 34 22 C 230 10 460 18 690 12 C 880 8 1030 12 1166 24" fill="none" stroke="#efe5d0" stroke-width="4" opacity=".42"/>
+  <text x="600" y="56" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="40" font-weight="900" fill="#171412">八、软件工程的新核心：建模、实现、验证</text>
+  <text x="600" y="92" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="22" font-weight="700" fill="#69645d">角色标签会变软，工程闭环会变硬</text>
+  <text x="600" y="142" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="34" font-weight="900" fill="#91bba5">三类核心能力</text><g>
+    <g opacity="1">
+    <path d="M 166 239 L 354 238 Q 367 238 366 248 L 365 358 Q 366 369 356 368 L 167 367 Q 155 368 156 358 L 157 248 Q 156 238 166 239 Z" fill="#cfe1d6" stroke="#171412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M 168 241 L 357 240 Q 364 239 364 249 L 367 356 Q 365 366 355 367 L 164 369 Q 157 366 158 357 L 155 250 Q 157 239 168 241 Z" fill="none" stroke="#171412" stroke-width="1.6500000000000001" stroke-linejoin="round" opacity=".45"/>
+  </g>
+    <text x="261" y="274" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="27" font-weight="800" fill="#171412">业务建模</text>
+    <text x="261" y="305" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="17" font-weight="600" fill="#69645d">目标 / 对象 / 规则</text>
+    
+  </g><g>
+    <g opacity="1">
+    <path d="M 505 239 L 693 238 Q 706 238 705 248 L 704 358 Q 705 369 695 368 L 506 367 Q 494 368 495 358 L 496 248 Q 495 238 505 239 Z" fill="#fff8eb" stroke="#171412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M 507 241 L 696 240 Q 703 239 703 249 L 706 356 Q 704 366 694 367 L 503 369 Q 496 366 497 357 L 494 250 Q 496 239 507 241 Z" fill="none" stroke="#171412" stroke-width="1.6500000000000001" stroke-linejoin="round" opacity=".45"/>
+  </g>
+    <text x="600" y="274" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="27" font-weight="800" fill="#171412">系统实现</text>
+    <text x="600" y="305" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="17" font-weight="600" fill="#69645d">接口 / 数据 / 代码</text>
+    
+  </g><g>
+    <g opacity="1">
+    <path d="M 844 239 L 1032 238 Q 1045 238 1044 248 L 1043 358 Q 1044 369 1034 368 L 845 367 Q 833 368 834 358 L 835 248 Q 834 238 844 239 Z" fill="#cfe1d6" stroke="#171412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M 846 241 L 1035 240 Q 1042 239 1042 249 L 1045 356 Q 1043 366 1033 367 L 842 369 Q 835 366 836 357 L 833 250 Q 835 239 846 241 Z" fill="none" stroke="#171412" stroke-width="1.6500000000000001" stroke-linejoin="round" opacity=".45"/>
+  </g>
+    <text x="939" y="274" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="27" font-weight="800" fill="#171412">验证闭环</text>
+    <text x="939" y="305" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="17" font-weight="600" fill="#69645d">测试 / 监控 / 反馈</text>
+    
+  </g><path d="M 366 302 C 420 280 446 280 495 302" fill="none" stroke="#171412" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" opacity="1"/><path d="M 705 302 C 760 280 784 280 834 302" fill="none" stroke="#171412" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" opacity="1"/><path d="M 940 370 C 850 585 360 585 255 370" fill="none" stroke="#171412" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" opacity="1"/><g>
+    <g opacity="1">
+    <path d="M 532 531 L 706 530 Q 726 530 725 547 L 724 547 Q 725 565 708 564 L 533 563 Q 514 564 515 547 L 516 547 Q 515 530 532 531 Z" fill="#fff8eb" stroke="#171412" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M 534 533 L 709 532 Q 723 531 723 548 L 726 545 Q 724 562 707 563 L 530 565 Q 516 562 517 546 L 514 549 Q 516 531 534 533 Z" fill="none" stroke="#171412" stroke-width="1.2" stroke-linejoin="round" opacity=".45"/>
+  </g>
+    <text x="620" y="553" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="17" font-weight="800" fill="#171412">反馈重新进入建模</text>
+  </g><g>
+    <g opacity="1">
+    <path d="M 244 433 L 418 432 Q 433 432 432 444 L 431 512 Q 432 525 420 524 L 245 523 Q 231 524 232 512 L 233 444 Q 232 432 244 433 Z" fill="#fff8eb" stroke="#171412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M 246 435 L 421 434 Q 430 433 430 445 L 433 510 Q 431 522 419 523 L 242 525 Q 233 522 234 511 L 231 446 Q 233 433 246 435 Z" fill="none" stroke="#171412" stroke-width="1.6500000000000001" stroke-linejoin="round" opacity=".45"/>
+  </g>
+    <path d="M 233 474 L 431 472" stroke="#171412" stroke-width="3"/>
+    <path d="M 244 434 L 420 433 Q 432 433 431 447 L 431 473 L 233 474 L 233 446 Q 233 435 244 434 Z" fill="#df765d" opacity=".95" stroke="#171412" stroke-width="2.5"/>
+    <circle cx="254" cy="454" r="7" fill="#df765d" stroke="#171412" stroke-width="2"/>
+    <circle cx="278" cy="454" r="7" fill="#e9c46a" stroke="#171412" stroke-width="2"/>
+    <circle cx="302" cy="454" r="7" fill="#91bba5" stroke="#171412" stroke-width="2"/>
+    <text x="332" y="460" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="20" font-weight="800" fill="#171412">业务问题</text>
+  </g><g>
+    <g opacity="1">
+    <path d="M 512 433 L 686 432 Q 701 432 700 444 L 699 512 Q 700 525 688 524 L 513 523 Q 499 524 500 512 L 501 444 Q 500 432 512 433 Z" fill="#fff8eb" stroke="#171412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M 514 435 L 689 434 Q 698 433 698 445 L 701 510 Q 699 522 687 523 L 510 525 Q 501 522 502 511 L 499 446 Q 501 433 514 435 Z" fill="none" stroke="#171412" stroke-width="1.6500000000000001" stroke-linejoin="round" opacity=".45"/>
+  </g>
+    <path d="M 501 474 L 699 472" stroke="#171412" stroke-width="3"/>
+    <path d="M 512 434 L 688 433 Q 700 433 699 447 L 699 473 L 501 474 L 501 446 Q 501 435 512 434 Z" fill="#91bba5" opacity=".95" stroke="#171412" stroke-width="2.5"/>
+    <circle cx="522" cy="454" r="7" fill="#df765d" stroke="#171412" stroke-width="2"/>
+    <circle cx="546" cy="454" r="7" fill="#e9c46a" stroke="#171412" stroke-width="2"/>
+    <circle cx="570" cy="454" r="7" fill="#91bba5" stroke="#171412" stroke-width="2"/>
+    <text x="600" y="460" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="20" font-weight="800" fill="#171412">工程方案</text>
+  </g><g>
+    <g opacity="1">
+    <path d="M 780 433 L 954 432 Q 969 432 968 444 L 967 512 Q 968 525 956 524 L 781 523 Q 767 524 768 512 L 769 444 Q 768 432 780 433 Z" fill="#fff8eb" stroke="#171412" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M 782 435 L 957 434 Q 966 433 966 445 L 969 510 Q 967 522 955 523 L 778 525 Q 769 522 770 511 L 767 446 Q 769 433 782 435 Z" fill="none" stroke="#171412" stroke-width="1.6500000000000001" stroke-linejoin="round" opacity=".45"/>
+  </g>
+    <path d="M 769 474 L 967 472" stroke="#171412" stroke-width="3"/>
+    <path d="M 780 434 L 956 433 Q 968 433 967 447 L 967 473 L 769 474 L 769 446 Q 769 435 780 434 Z" fill="#91bba5" opacity=".95" stroke="#171412" stroke-width="2.5"/>
+    <circle cx="790" cy="454" r="7" fill="#df765d" stroke="#171412" stroke-width="2"/>
+    <circle cx="814" cy="454" r="7" fill="#e9c46a" stroke="#171412" stroke-width="2"/>
+    <circle cx="838" cy="454" r="7" fill="#91bba5" stroke="#171412" stroke-width="2"/>
+    <text x="868" y="460" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="20" font-weight="800" fill="#171412">运行证据</text>
+  </g><text x="332" y="488" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="22" font-weight="900" fill="#171412">为什么做</text><text x="600" y="488" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="22" font-weight="900" fill="#171412">怎么落地</text><text x="868" y="488" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="22" font-weight="900" fill="#171412">如何证明</text>
+</svg>
