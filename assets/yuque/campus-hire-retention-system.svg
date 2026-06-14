@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">校招生留存与培养系统</title>
+  <desc id="desc">从招聘、融入、导师、项目、反馈、任职资格、内部活水到留存的闭环。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7f3ea"/>
+      <stop offset="1" stop-color="#edf5f4"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#25342c" flood-opacity=".14"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#557565"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="720" fill="url(#bg)"/>
+  <circle cx="1030" cy="120" r="128" fill="#f0c979" opacity=".22"/>
+  <circle cx="156" cy="612" r="142" fill="#74a98b" opacity=".14"/>
+  <text x="86" y="104" font-family="'PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="42" font-weight="700" fill="#25342c">校招生留存与培养系统</text>
+  <text x="86" y="148" font-family="'PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="21" fill="#66736a">目标不是“强留人”，而是让新人更快成长、组织更早识别和承接人才</text>
+
+  <g fill="none" stroke="#557565" stroke-width="5" marker-end="url(#arrow)" opacity=".86">
+    <path d="M360 226 C468 146 620 134 746 204"/>
+    <path d="M894 292 C944 408 902 530 796 604"/>
+    <path d="M612 624 C454 622 322 526 284 380"/>
+  </g>
+
+  <g font-family="'PingFang SC','Microsoft YaHei',Arial,sans-serif" filter="url(#shadow)">
+    <g transform="translate(252 196)">
+      <rect width="206" height="112" rx="18" fill="#ffffff"/>
+      <text x="103" y="44" text-anchor="middle" font-size="25" font-weight="700" fill="#25342c">入职融入</text>
+      <text x="103" y="78" text-anchor="middle" font-size="17" fill="#657267">业务 / 流程 / 规范</text>
+    </g>
+    <g transform="translate(498 150)">
+      <rect width="206" height="112" rx="18" fill="#ffffff"/>
+      <text x="103" y="44" text-anchor="middle" font-size="25" font-weight="700" fill="#25342c">导师机制</text>
+      <text x="103" y="78" text-anchor="middle" font-size="17" fill="#657267">技术辅导 / 成长反馈</text>
+    </g>
+    <g transform="translate(744 196)">
+      <rect width="206" height="112" rx="18" fill="#ffffff"/>
+      <text x="103" y="44" text-anchor="middle" font-size="25" font-weight="700" fill="#25342c">项目历练</text>
+      <text x="103" y="78" text-anchor="middle" font-size="17" fill="#657267">完整闭环 / 真实责任</text>
+    </g>
+    <g transform="translate(778 440)">
+      <rect width="206" height="112" rx="18" fill="#ffffff"/>
+      <text x="103" y="44" text-anchor="middle" font-size="25" font-weight="700" fill="#25342c">任职资格</text>
+      <text x="103" y="78" text-anchor="middle" font-size="17" fill="#657267">考试 / 答辩 / 职级</text>
+    </g>
+    <g transform="translate(498 520)">
+      <rect width="206" height="112" rx="18" fill="#ffffff"/>
+      <text x="103" y="44" text-anchor="middle" font-size="25" font-weight="700" fill="#25342c">内部活水</text>
+      <text x="103" y="78" text-anchor="middle" font-size="17" fill="#657267">项目机会 / 转岗通道</text>
+    </g>
+    <g transform="translate(218 440)">
+      <rect width="206" height="112" rx="18" fill="#ffffff"/>
+      <text x="103" y="44" text-anchor="middle" font-size="25" font-weight="700" fill="#25342c">激励认可</text>
+      <text x="103" y="78" text-anchor="middle" font-size="17" fill="#657267">成长感 / 公平感</text>
+    </g>
+  </g>
+
+  <g font-family="'PingFang SC','Microsoft YaHei',Arial,sans-serif">
+    <circle cx="600" cy="360" r="112" fill="#315f52"/>
+    <text x="600" y="340" text-anchor="middle" font-size="31" font-weight="700" fill="#ffffff">有效留存</text>
+    <text x="600" y="380" text-anchor="middle" font-size="19" fill="#dce9e1">成长路径清楚</text>
+    <text x="600" y="408" text-anchor="middle" font-size="19" fill="#dce9e1">组织承接稳定</text>
+  </g>
+</svg>

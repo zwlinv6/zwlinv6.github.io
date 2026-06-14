@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">产品与研发任职资格成长阶梯</title>
+  <desc id="desc">产品和研发从1级到8级的成长路径，包含执行、独立交付、骨干、专家四个阶段。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7f3ea"/>
+      <stop offset="1" stop-color="#eef5f1"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#25342c" flood-opacity=".13"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="720" fill="url(#bg)"/>
+  <text x="86" y="104" font-family="'PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="42" font-weight="700" fill="#25342c">产品与研发任职资格成长阶梯</text>
+  <text x="86" y="148" font-family="'PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="21" fill="#66736a">用考试、答辩、有效时长和绩效门槛，把“成长”变成可申请、可认证、可兑现的路径</text>
+
+  <g transform="translate(104 214)" font-family="'PingFang SC','Microsoft YaHei',Arial,sans-serif" filter="url(#shadow)">
+    <rect width="992" height="106" rx="20" fill="#ffffff"/>
+    <text x="38" y="62" font-size="24" font-weight="700" fill="#315f52">认证门槛</text>
+    <text x="190" y="44" font-size="18" fill="#657267">有效工作时长</text>
+    <text x="190" y="76" font-size="18" fill="#25342c">满足对应等级要求</text>
+    <text x="410" y="44" font-size="18" fill="#657267">年度绩效</text>
+    <text x="410" y="76" font-size="18" fill="#25342c">B 及以上可申请</text>
+    <text x="608" y="44" font-size="18" fill="#657267">认证方式</text>
+    <text x="608" y="76" font-size="18" fill="#25342c">考试 + 材料 + 答辩</text>
+    <text x="840" y="44" font-size="18" fill="#657267">结果应用</text>
+    <text x="840" y="76" font-size="18" fill="#25342c">绑定职级与机会</text>
+  </g>
+
+  <g transform="translate(106 374)" font-family="'PingFang SC','Microsoft YaHei',Arial,sans-serif">
+    <g filter="url(#shadow)">
+      <rect width="236" height="178" rx="18" fill="#ffffff"/>
+      <text x="118" y="44" text-anchor="middle" font-size="26" font-weight="700" fill="#25342c">1-2 级</text>
+      <text x="118" y="78" text-anchor="middle" font-size="21" font-weight="700" fill="#315f52">新人 / 初级</text>
+      <text x="118" y="116" text-anchor="middle" font-size="17" fill="#657267">理解流程与规范</text>
+      <text x="118" y="144" text-anchor="middle" font-size="17" fill="#657267">完成明确任务</text>
+    </g>
+    <g transform="translate(252 0)" filter="url(#shadow)">
+      <rect width="236" height="178" rx="18" fill="#ffffff"/>
+      <text x="118" y="44" text-anchor="middle" font-size="26" font-weight="700" fill="#25342c">3-4 级</text>
+      <text x="118" y="78" text-anchor="middle" font-size="21" font-weight="700" fill="#315f52">独立交付</text>
+      <text x="118" y="116" text-anchor="middle" font-size="17" fill="#657267">负责模块闭环</text>
+      <text x="118" y="144" text-anchor="middle" font-size="17" fill="#657267">能解释方案取舍</text>
+    </g>
+    <g transform="translate(504 0)" filter="url(#shadow)">
+      <rect width="236" height="178" rx="18" fill="#ffffff"/>
+      <text x="118" y="44" text-anchor="middle" font-size="26" font-weight="700" fill="#25342c">5-6 级</text>
+      <text x="118" y="78" text-anchor="middle" font-size="21" font-weight="700" fill="#315f52">骨干 / SE / PL</text>
+      <text x="118" y="116" text-anchor="middle" font-size="17" fill="#657267">拆需求、排风险</text>
+      <text x="118" y="144" text-anchor="middle" font-size="17" fill="#657267">带项目和新人</text>
+    </g>
+    <g transform="translate(756 0)" filter="url(#shadow)">
+      <rect width="236" height="178" rx="18" fill="#ffffff"/>
+      <text x="118" y="44" text-anchor="middle" font-size="26" font-weight="700" fill="#25342c">7-8 级</text>
+      <text x="118" y="78" text-anchor="middle" font-size="21" font-weight="700" fill="#315f52">专家 / 体系建设</text>
+      <text x="118" y="116" text-anchor="middle" font-size="17" fill="#657267">复杂项目负责人</text>
+      <text x="118" y="144" text-anchor="middle" font-size="17" fill="#657267">沉淀方法和平台</text>
+    </g>
+  </g>
+
+  <g transform="translate(126 602)" font-family="'PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="19">
+    <text x="0" y="0" fill="#25342c" font-weight="700">研发能力项：</text>
+    <text x="116" y="0" fill="#657267">编码、设计、质量、问题定位、交付闭环、技术沉淀、带人</text>
+    <text x="0" y="42" fill="#25342c" font-weight="700">产品能力项：</text>
+    <text x="116" y="42" fill="#657267">需求转化、PRD质量、原型、系统思维、业界洞察、数据分析、项目推动</text>
+  </g>
+</svg>
