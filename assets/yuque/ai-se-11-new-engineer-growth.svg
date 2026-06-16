@@ -6,10 +6,10 @@
       <stop offset="0%" stop-color="#f8f1e3"/>
       <stop offset="100%" stop-color="#f2ead9"/>
     </radialGradient>
-    <marker id="arrow" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="13" markerHeight="13" orient="auto">
-      <path d="M 1 1 L 11 6 L 1 11 z" fill="#171412" stroke="#171412" stroke-width="1"/>
+    <marker id="arrow" viewBox="0 0 14 14" refX="13" refY="7" markerWidth="34" markerHeight="34" markerUnits="userSpaceOnUse" orient="auto">
+      <path d="M 1 1 L 13 7 L 1 13 z" fill="#171412" stroke="#171412" stroke-width="1"/>
     </marker>
-    <marker id="smallArrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+    <marker id="smallArrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="16" markerHeight="16" markerUnits="userSpaceOnUse" orient="auto">
       <path d="M 1 1 L 9 5 L 1 9 z" fill="#171412"/>
     </marker>
     <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
@@ -23,85 +23,86 @@
   <text x="600" y="92" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="22" font-weight="700" fill="#69645d">交付变快之后，更要刻意训练架构、评审和沟通</text>
   <text x="238" y="146" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="32" font-weight="900" fill="#df765d">危险路径</text><g>
     <g opacity="1">
-    <path d="M 82 215 L 456 214 Q 471 214 470 226 L 469 530 Q 470 543 458 542 L 83 541 Q 69 542 70 530 L 71 226 Q 70 214 82 215 Z" fill="#fff8eb" stroke="#171412" stroke-width="3" stroke-linejoin="round"/>
-    <path d="M 84 217 L 459 216 Q 468 215 468 227 L 471 528 Q 469 540 457 541 L 80 543 Q 71 540 72 529 L 69 228 Q 71 215 84 217 Z" fill="none" stroke="#171412" stroke-width="1.6500000000000001" stroke-linejoin="round" opacity=".45"/>
+    <rect x="70" y="214" width="400" height="328" rx="12" fill="#fff8eb" stroke="#171412" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="72" y="216" width="396" height="324" rx="10" fill="none" stroke="#171412" stroke-width="1.5" stroke-linejoin="round" opacity=".35"/>
   </g>
-    <path d="M 71 256 L 469 254" stroke="#171412" stroke-width="3"/>
-    <path d="M 82 216 L 458 215 Q 470 215 469 229 L 469 255 L 71 256 L 71 228 Q 71 217 82 216 Z" fill="#df765d" opacity=".95" stroke="#171412" stroke-width="2.5"/>
+    <path d="M 82 215.5 L 458 215.5 Q 468.5 215.5 468.5 226 L 468.5 256 L 71.5 256 L 71.5 226 Q 71.5 215.5 82 215.5 Z" fill="#df765d" opacity=".95" stroke="#171412" stroke-width="2.5"/>
+    <path d="M 71.5 256 L 468.5 256" stroke="#171412" stroke-width="3"/>
     <circle cx="92" cy="236" r="7" fill="#df765d" stroke="#171412" stroke-width="2"/>
     <circle cx="116" cy="236" r="7" fill="#e9c46a" stroke="#171412" stroke-width="2"/>
     <circle cx="140" cy="236" r="7" fill="#91bba5" stroke="#171412" stroke-width="2"/>
     <text x="270" y="242" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="20" font-weight="800" fill="#171412">AI 替你跳过过程</text>
   </g><g>
     <g opacity="1">
-    <path d="M 122 295 L 240 294 Q 253 294 252 304 L 251 352 Q 252 363 242 362 L 123 361 Q 111 362 112 352 L 113 304 Q 112 294 122 295 Z" fill="#f3b29f" stroke="#171412" stroke-width="3" stroke-linejoin="round"/>
-    <path d="M 124 297 L 243 296 Q 250 295 250 305 L 253 350 Q 251 360 241 361 L 120 363 Q 113 360 114 351 L 111 306 Q 113 295 124 297 Z" fill="none" stroke="#171412" stroke-width="1.6500000000000001" stroke-linejoin="round" opacity=".45"/>
+    <rect x="112" y="294" width="140" height="68" rx="10" fill="#f3b29f" stroke="#171412" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="114" y="296" width="136" height="64" rx="8" fill="none" stroke="#171412" stroke-width="1.5" stroke-linejoin="round" opacity=".35"/>
   </g>
-    <text x="182" y="330" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="21" font-weight="800" fill="#171412">直接问</text>
-    <text x="182" y="361" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="17" font-weight="600" fill="#69645d">帮我实现</text>
+    <text x="182" y="324" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="21" font-weight="800" fill="#171412">直接问</text>
+    <text x="182" y="350" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="17" font-weight="600" fill="#69645d">帮我实现</text>
     
   </g><path d="M 252 328 L 306 328" fill="none" stroke="#171412" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#smallArrow)" opacity="1"/><g>
     <g opacity="1">
-    <path d="M 324 295 L 422 294 Q 435 294 434 304 L 433 352 Q 434 363 424 362 L 325 361 Q 313 362 314 352 L 315 304 Q 314 294 324 295 Z" fill="#fff8eb" stroke="#171412" stroke-width="3" stroke-linejoin="round"/>
-    <path d="M 326 297 L 425 296 Q 432 295 432 305 L 435 350 Q 433 360 423 361 L 322 363 Q 315 360 316 351 L 313 306 Q 315 295 326 297 Z" fill="none" stroke="#171412" stroke-width="1.6500000000000001" stroke-linejoin="round" opacity=".45"/>
+    <rect x="314" y="294" width="120" height="68" rx="10" fill="#fff8eb" stroke="#171412" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="316" y="296" width="116" height="64" rx="8" fill="none" stroke="#171412" stroke-width="1.5" stroke-linejoin="round" opacity=".35"/>
   </g>
-    <text x="374" y="330" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="21" font-weight="800" fill="#171412">复制</text>
-    <text x="374" y="361" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="17" font-weight="600" fill="#69645d">能跑就行</text>
+    <text x="374" y="324" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="21" font-weight="800" fill="#171412">复制</text>
+    <text x="374" y="350" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="17" font-weight="600" fill="#69645d">能跑就行</text>
     
   </g><path d="M 374 362 C 350 430 242 438 184 398" fill="none" stroke="#171412" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#smallArrow)" opacity="1"/><g>
     <g opacity="1">
-    <path d="M 161 431 L 263 430 Q 283 430 282 447 L 281 447 Q 282 465 265 464 L 162 463 Q 143 464 144 447 L 145 447 Q 144 430 161 431 Z" fill="#fff8eb" stroke="#171412" stroke-width="2" stroke-linejoin="round"/>
-    <path d="M 163 433 L 266 432 Q 280 431 280 448 L 283 445 Q 281 462 264 463 L 159 465 Q 145 462 146 446 L 143 449 Q 145 431 163 433 Z" fill="none" stroke="#171412" stroke-width="1.2" stroke-linejoin="round" opacity=".45"/>
+    <rect x="144" y="430" width="138" height="34" rx="17" fill="#fff8eb" stroke="#171412" stroke-width="2" stroke-linejoin="round"/>
+    <rect x="146" y="432" width="134" height="30" rx="15" fill="none" stroke="#171412" stroke-width="1.2" stroke-linejoin="round" opacity=".35"/>
   </g>
     <text x="213" y="453" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="17" font-weight="800" fill="#df765d">判断力空心</text>
-  </g><path d="M 486 378 C 560 334 610 334 684 378" fill="none" stroke="#171412" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" opacity="1"/><g>
+  </g><path d="M 490 378 L 686 378" fill="none" stroke="#171412" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" opacity="1"/>
+  <g>
     <g opacity="1">
-    <path d="M 549 331 L 635 330 Q 655 330 654 347 L 653 347 Q 654 365 637 364 L 550 363 Q 531 364 532 347 L 533 347 Q 532 330 549 331 Z" fill="#fff8eb" stroke="#171412" stroke-width="2" stroke-linejoin="round"/>
-    <path d="M 551 333 L 638 332 Q 652 331 652 348 L 655 345 Q 653 362 636 363 L 547 365 Q 533 362 534 346 L 531 349 Q 533 331 551 333 Z" fill="none" stroke="#171412" stroke-width="1.2" stroke-linejoin="round" opacity=".45"/>
+    <rect x="527" y="361" width="122" height="34" rx="17" fill="#fff8eb" stroke="#171412" stroke-width="2" stroke-linejoin="round"/>
+    <rect x="529" y="363" width="118" height="30" rx="15" fill="none" stroke="#171412" stroke-width="1.2" stroke-linejoin="round" opacity=".35"/>
   </g>
-    <text x="593" y="353" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="17" font-weight="800" fill="#171412">刻意练习</text>
+    <text x="588" y="384" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="17" font-weight="800" fill="#171412">刻意练习</text>
   </g><text x="930" y="146" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="32" font-weight="900" fill="#91bba5">训练路径</text><g>
     <g opacity="1">
-    <path d="M 716 215 L 1116 214 Q 1131 214 1130 226 L 1129 530 Q 1130 543 1118 542 L 717 541 Q 703 542 704 530 L 705 226 Q 704 214 716 215 Z" fill="#fff8eb" stroke="#171412" stroke-width="3" stroke-linejoin="round"/>
-    <path d="M 718 217 L 1119 216 Q 1128 215 1128 227 L 1131 528 Q 1129 540 1117 541 L 714 543 Q 705 540 706 529 L 703 228 Q 705 215 718 217 Z" fill="none" stroke="#171412" stroke-width="1.6500000000000001" stroke-linejoin="round" opacity=".45"/>
+    <rect x="704" y="214" width="426" height="328" rx="12" fill="#fff8eb" stroke="#171412" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="706" y="216" width="422" height="324" rx="10" fill="none" stroke="#171412" stroke-width="1.5" stroke-linejoin="round" opacity=".35"/>
   </g>
-    <path d="M 705 256 L 1129 254" stroke="#171412" stroke-width="3"/>
-    <path d="M 716 216 L 1118 215 Q 1130 215 1129 229 L 1129 255 L 705 256 L 705 228 Q 705 217 716 216 Z" fill="#91bba5" opacity=".95" stroke="#171412" stroke-width="2.5"/>
+    <path d="M 716 215.5 L 1118 215.5 Q 1128.5 215.5 1128.5 226 L 1128.5 256 L 705.5 256 L 705.5 226 Q 705.5 215.5 716 215.5 Z" fill="#91bba5" opacity=".95" stroke="#171412" stroke-width="2.5"/>
+    <path d="M 705.5 256 L 1128.5 256" stroke="#171412" stroke-width="3"/>
     <circle cx="726" cy="236" r="7" fill="#df765d" stroke="#171412" stroke-width="2"/>
     <circle cx="750" cy="236" r="7" fill="#e9c46a" stroke="#171412" stroke-width="2"/>
     <circle cx="774" cy="236" r="7" fill="#91bba5" stroke="#171412" stroke-width="2"/>
     <text x="917" y="242" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="20" font-weight="800" fill="#171412">用 AI 扩大判断力</text>
   </g><g>
     <g opacity="1">
-    <path d="M 758 283 L 886 282 Q 899 282 898 292 L 897 344 Q 898 355 888 354 L 759 353 Q 747 354 748 344 L 749 292 Q 748 282 758 283 Z" fill="#cfe1d6" stroke="#171412" stroke-width="3" stroke-linejoin="round"/>
-    <path d="M 760 285 L 889 284 Q 896 283 896 293 L 899 342 Q 897 352 887 353 L 756 355 Q 749 352 750 343 L 747 294 Q 749 283 760 285 Z" fill="none" stroke="#171412" stroke-width="1.6500000000000001" stroke-linejoin="round" opacity=".45"/>
+    <rect x="748" y="282" width="150" height="72" rx="10" fill="#cfe1d6" stroke="#171412" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="750" y="284" width="146" height="68" rx="8" fill="none" stroke="#171412" stroke-width="1.5" stroke-linejoin="round" opacity=".35"/>
   </g>
-    <text x="823" y="318" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="18" font-weight="800" fill="#171412">1 自己建模</text>
-    <text x="823" y="349" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="17" font-weight="600" fill="#69645d">对象 / 状态 / 异常</text>
+    <text x="823" y="312" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="18" font-weight="800" fill="#171412">1 自己建模</text>
+    <text x="823" y="336" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="17" font-weight="600" fill="#69645d">对象 / 状态 / 异常</text>
     
   </g><g>
     <g opacity="1">
-    <path d="M 936 283 L 1064 282 Q 1077 282 1076 292 L 1075 344 Q 1076 355 1066 354 L 937 353 Q 925 354 926 344 L 927 292 Q 926 282 936 283 Z" fill="#cfe1d6" stroke="#171412" stroke-width="3" stroke-linejoin="round"/>
-    <path d="M 938 285 L 1067 284 Q 1074 283 1074 293 L 1077 342 Q 1075 352 1065 353 L 934 355 Q 927 352 928 343 L 925 294 Q 927 283 938 285 Z" fill="none" stroke="#171412" stroke-width="1.6500000000000001" stroke-linejoin="round" opacity=".45"/>
+    <rect x="926" y="282" width="150" height="72" rx="10" fill="#cfe1d6" stroke="#171412" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="928" y="284" width="146" height="68" rx="8" fill="none" stroke="#171412" stroke-width="1.5" stroke-linejoin="round" opacity=".35"/>
   </g>
-    <text x="1001" y="318" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="18" font-weight="800" fill="#171412">2 AI 评审</text>
-    <text x="1001" y="349" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="17" font-weight="600" fill="#69645d">反问 / 找风险</text>
+    <text x="1001" y="312" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="18" font-weight="800" fill="#171412">2 AI 评审</text>
+    <text x="1001" y="336" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="17" font-weight="600" fill="#69645d">反问 / 找风险</text>
     
   </g><g>
     <g opacity="1">
-    <path d="M 758 401 L 886 400 Q 899 400 898 410 L 897 462 Q 898 473 888 472 L 759 471 Q 747 472 748 462 L 749 410 Q 748 400 758 401 Z" fill="#cfe1d6" stroke="#171412" stroke-width="3" stroke-linejoin="round"/>
-    <path d="M 760 403 L 889 402 Q 896 401 896 411 L 899 460 Q 897 470 887 471 L 756 473 Q 749 470 750 461 L 747 412 Q 749 401 760 403 Z" fill="none" stroke="#171412" stroke-width="1.6500000000000001" stroke-linejoin="round" opacity=".45"/>
+    <rect x="748" y="400" width="150" height="72" rx="10" fill="#cfe1d6" stroke="#171412" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="750" y="402" width="146" height="68" rx="8" fill="none" stroke="#171412" stroke-width="1.5" stroke-linejoin="round" opacity=".35"/>
   </g>
-    <text x="823" y="436" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="18" font-weight="800" fill="#171412">3 对比差异</text>
-    <text x="823" y="467" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="17" font-weight="600" fill="#69645d">方案 / 取舍</text>
+    <text x="823" y="430" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="18" font-weight="800" fill="#171412">3 对比差异</text>
+    <text x="823" y="454" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="17" font-weight="600" fill="#69645d">方案 / 取舍</text>
     
   </g><g>
     <g opacity="1">
-    <path d="M 936 401 L 1064 400 Q 1077 400 1076 410 L 1075 462 Q 1076 473 1066 472 L 937 471 Q 925 472 926 462 L 927 410 Q 926 400 936 401 Z" fill="#cfe1d6" stroke="#171412" stroke-width="3" stroke-linejoin="round"/>
-    <path d="M 938 403 L 1067 402 Q 1074 401 1074 411 L 1077 460 Q 1075 470 1065 471 L 934 473 Q 927 470 928 461 L 925 412 Q 927 401 938 403 Z" fill="none" stroke="#171412" stroke-width="1.6500000000000001" stroke-linejoin="round" opacity=".45"/>
+    <rect x="926" y="400" width="150" height="72" rx="10" fill="#cfe1d6" stroke="#171412" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="928" y="402" width="146" height="68" rx="8" fill="none" stroke="#171412" stroke-width="1.5" stroke-linejoin="round" opacity=".35"/>
   </g>
-    <text x="1001" y="436" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="18" font-weight="800" fill="#171412">4 真实复盘</text>
-    <text x="1001" y="467" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="17" font-weight="600" fill="#69645d">延期 / 事故 / 返工</text>
+    <text x="1001" y="430" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="18" font-weight="800" fill="#171412">4 真实复盘</text>
+    <text x="1001" y="454" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="17" font-weight="600" fill="#69645d">延期 / 事故 / 返工</text>
     
   </g><path d="M 898 318 L 926 318" fill="none" stroke="#171412" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#smallArrow)" opacity="1"/><path d="M 824 354 L 824 400" fill="none" stroke="#171412" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#smallArrow)" opacity="1"/><path d="M 1002 354 L 1002 400" fill="none" stroke="#171412" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#smallArrow)" opacity="1"/><path d="M 898 436 L 926 436" fill="none" stroke="#171412" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#smallArrow)" opacity="1"/><text x="918" y="594" text-anchor="middle" font-family="'LXGW WenKai','PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="22" font-weight="900" fill="#171412">不是让 AI 替你思考，而是让思考暴露出来</text>
 </svg>
